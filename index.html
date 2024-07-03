@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Tech Goals</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/89b110ccdb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1 class="name" data-testid="myLogo">Emmanex</h1>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <span class="exit-button">X</span>
+      </div>
+      <ul class="Nav-menu">
+        <li> <a href="#profileDetail">Home</a> </li>
+        <li> <a href="#aboutSection">About</a></li>
+        <li> <a href="#myGoals">My Goals</a> </li>
+        <li> <a href="#contactSection">Contact</a></li>
+      </ul>
+      
+    </div>
+  </header>
+  
+  <section class="profile" id="profileDetail">
+    <section class="time-info">
+        <h2>Hi</h2>
+        <h1 data-testid="slackDisplayName">I'm <span class="name">Emmanuel Tochukwu</span> </h1>
+        <h2>a Frontend Developer</h2>
+        <p>A passionate and detail-oriented frontend developer with a knack for creating engaging, user-friendly web experiences. With a background in Microbiology, I specialize in bringing ideas to life through clean and efficient code. </p>
+        <div class="button-section">
+          <button>Download CV</button>
+          <button class="btn">About Me</button>
+        </div>
+        <p data-testid="slackEmail">Email: <a href="mailto:nwanosiketochukwu@gmail.com">nwanosiketochukwu99@gmail.com</a></p>
+        <p data-testid="currentTimeUTC" id="currentTimeUTC">Loading current time...</p>
+        <p data-testid="currentDay" id="currentDay">Loading current day...</p>
+    </section>
+
+    <img src="https://ca.slack-edge.com/T07466B189M-U079RSP530F-6d24dc820c8e-512" alt="Slack Profile Picture" data-testid="slackProfilePicture" width="natural-width" height="natural-height">
+    
+  </section>
+
+  <section class="about" id="aboutSection">
+    <img class="img" src="https://ca.slack-edge.com/T07466B189M-U079RSP530F-6d24dc820c8e-512" alt="Slack Profile Picture" data-testid="slackProfilePicture" width="natural-width" height="natural-height">
+    <div class="about-info">
+      <h2>About Me</h2>
+      <h1>Frontend Developer</h1>
+      <p>A passionate and detail-oriented frontend developer with a knack for creating engaging, user-friendly web experiences. With a background in Microbiology, I specialize in bringing ideas to life through clean and efficient code. </p>
+      <button>Contact Me</button>
+    </div>
+  </section>
+  
+
+  <section class="goals" id="myGoals">
+    <h2>My Tech Goals for the Next 2 Years</h2>
+    <ul data-testid="techGoal" class="goals-cards">
+      <li data-testid="techGoal1" class="card">
+        <h4>
+          Become proficient in JavaScript and its frameworks
+        </h4>
+        <ul>
+          <li>Master core JavaScript concepts</li>
+          <li>Learn popular JavaScript frameworks (e.g., React, Vue.js, Angular)</li>
+          <li>Build practical projects to apply knowledge</li>
+        </ul>
+      </li>
+      <li data-testid="techGoal2" class="card">
+        <h4>
+          Secure a High Paying Job
+        </h4>
+        <ul>
+          <li>Build a strong portfolio</li>
+          <li>Network with industry professionals</li>
+          <li>Prepare effectively for job interviews</li>
+        </ul>
+      </li>
+      <li data-testid="techGoal3" class="card">
+        <h4>
+          Become a Fullstack Developer
+        </h4>
+        <ul>
+          <li>Learn backend technologies</li>
+          <li>Integrate frontend and backend skills</li>
+          <li>Build and deploy fullstack applications</li>
+        </ul>
+      </li>
+      <li data-testid="techGoal4" class="card">
+        <h4>
+          Build a Product That Solves a Common Problem
+        </h4>
+        <ul>
+          <li>Identify a common problem to solve</li>
+          <li>Design and develop a viable product</li>
+          <li>Launch and market the product effectively</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section class="Contact-container" id="contactSection">
+    <h2>Contact me</h2>
+    <div class="contacts">
+      <div class="contact">
+        <div class="icon">
+          <i class="fa-solid fa-phone"></i>
+        </div>
+        <div class="contact-text">
+          <span>Phone:</span>
+          <span class="val">+2348148280097</span>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div class="icon">
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="contact-text">
+          <span>Email:</span>
+          <span class="val">nwanosiketochukwu99@gmail.com</span>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div class="icon">
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <div class="contact-text">
+          <span>Location:</span>
+          <span class="val">Anambra, Nigeria</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="links">
+    <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+    <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
+    <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
